@@ -1,0 +1,2538 @@
+fileFormatVersion: 2
+guid: f88fcda447c6b6b44a2970fe7fe64c6b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack1
+    second: {fileID: 7400000, guid: 2092edcc5618aef49a2625a9572764b5, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack2
+    second: {fileID: 7400000, guid: eec943270cf571d45a0c5be032cf02dc, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dart
+    second: {fileID: 7400000, guid: 83b656b0a166ec14e89fa2a17920bf26, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Defend
+    second: {fileID: 7400000, guid: b34f9f0be33fcaf45acf0309794101c1, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Die
+    second: {fileID: 7400000, guid: 9a242dd2f5924c341ac76171c41698b4, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Fall
+    second: {fileID: 7400000, guid: 0d596b21a9550244dbcefb3410890d9c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Hurt
+    second: {fileID: 7400000, guid: d400167c6e69624499b47f77e2220684, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 9a8dde4d6d2770e4cb43371743334f92, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Jump
+    second: {fileID: 7400000, guid: 1bc4bfb03b9363547bc9999a251b27fd, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run
+    second: {fileID: 7400000, guid: 13f407ff02e609a44b38d7d7717f3632, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Rush
+    second: {fileID: 7400000, guid: a483b2fc5cd906d46a4c2cf06241646b, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638595321873575054
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Samurai_Frame_0
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 1611
+      width: 95
+      height: 170
+    spriteID: 8d58215a57fc7f44f9e10574308af7fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 1611}
+  - name: Samurai_Frame_1
+    originalName: 
+    pivot: {x: 0.5749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 919
+      width: 100
+      height: 165
+    spriteID: 0dbc5e632974b214f81d8994072de80a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 919}
+  - name: Samurai_Frame_2
+    originalName: 
+    pivot: {x: 0.5749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 1092
+      width: 100
+      height: 165
+    spriteID: 5e5c996ce0bc0c2449c8e408698ba20a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 1092}
+  - name: Samurai_Frame_3
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1008
+      y: 1363
+      width: 95
+      height: 160
+    spriteID: 3852da027cbbebb4ea49d1d171fe0457
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1008, y: 1363}
+  - name: Samurai_Frame_4
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 1363
+      width: 95
+      height: 165
+    spriteID: 54ff3c72d8d1a6b4b8abb4316df4a8aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 576, y: 1363}
+  - name: Samurai_Frame_5
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 1789
+      width: 95
+      height: 170
+    spriteID: 4e0377082aecaa340ad9dbbb1033c0f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 1789}
+  - name: Samurai_Frame_6
+    originalName: 
+    pivot: {x: 0.5749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 1265
+      width: 100
+      height: 165
+    spriteID: bfe7436f1ee983a46a45044a5ef64d1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 1265}
+  - name: Samurai_Frame_7
+    originalName: 
+    pivot: {x: 0.5749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 1438
+      width: 100
+      height: 165
+    spriteID: a6c70d35f9669f04d82ec74f89b4f749
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 1438}
+  - name: Samurai_Frame_8
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1111
+      y: 1363
+      width: 95
+      height: 160
+    spriteID: 430f7f84d0e5cfb45b6b117714886e1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1111, y: 1363}
+  - name: Samurai_Frame_9
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 679
+      y: 1363
+      width: 95
+      height: 165
+    spriteID: c227de4db162bdf4083f2a35ca02bc52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 679, y: 1363}
+  - name: Samurai_Frame_10
+    originalName: 
+    pivot: {x: 0.44230768, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 736
+      width: 130
+      height: 140
+    spriteID: 3a88e92321306484d9881f1dcdd7ef42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 736}
+  - name: Samurai_Frame_11
+    originalName: 
+    pivot: {x: 0.4354838, y: -0.29166666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 691
+      y: 455
+      width: 155
+      height: 120
+    spriteID: 90ec8f581e5b80a41a3805fb5f5e03c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 691, y: 455}
+  - name: Samurai_Frame_12
+    originalName: 
+    pivot: {x: 0.3541667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1037
+      width: 120
+      height: 150
+    spriteID: 106069f7633cf1d4ebc45951a2376fde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1037}
+  - name: Samurai_Frame_13
+    originalName: 
+    pivot: {x: 0.3409091, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 827
+      y: 1195
+      width: 110
+      height: 145
+    spriteID: 71938707f50654f4e98b399773d710a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 827, y: 1195}
+  - name: Samurai_Frame_14
+    originalName: 
+    pivot: {x: 0.51666665, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1260
+      width: 150
+      height: 145
+    spriteID: 19a9a048198ffe741ab44b898c293fe3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1260}
+  - name: Samurai_Frame_15
+    originalName: 
+    pivot: {x: 0.4354838, y: -0.1923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1907
+      width: 155
+      height: 130
+    spriteID: 3e9b67fba973f564ea22d2db8619e80c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1907}
+  - name: Samurai_Frame_16
+    originalName: 
+    pivot: {x: 0.4032258, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 939
+      width: 155
+      height: 145
+    spriteID: 802fa3702e77c47469788cb5a65db30d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 939}
+  - name: Samurai_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 593
+      width: 145
+      height: 135
+    spriteID: 13f62fe18f57e7c4599a78364b629e8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 593}
+  - name: Samurai_Frame_18
+    originalName: 
+    pivot: {x: 0.4318182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 1195
+      width: 110
+      height: 155
+    spriteID: 9369dafe31e6f5c4e8f3d71d693fb6f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 591, y: 1195}
+  - name: Samurai_Frame_19
+    originalName: 
+    pivot: {x: 0.58035713, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 222
+      width: 280
+      height: 140
+    spriteID: 0a0e8516903833f49ad2a181d47b8abf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 803, y: 222}
+  - name: Samurai_Frame_20
+    originalName: 
+    pivot: {x: 0.60833335, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 495
+      y: 222
+      width: 300
+      height: 135
+    spriteID: 8224d874169ea1047b56e87aa7afc6bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 495, y: 222}
+  - name: Samurai_Frame_21
+    originalName: 
+    pivot: {x: 0.6492537, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1111
+      y: 4
+      width: 335
+      height: 140
+    spriteID: 3cf6d63756abb914982fc0f32549da2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1111, y: 4}
+  - name: Samurai_Frame_22
+    originalName: 
+    pivot: {x: 0.8017241, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1454
+      y: 4
+      width: 290
+      height: 140
+    spriteID: 1feee053cbe5a5a45a2b80c9445d606a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1454, y: 4}
+  - name: Samurai_Frame_23
+    originalName: 
+    pivot: {x: 0.47727278, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1103
+      y: 1195
+      width: 110
+      height: 140
+    spriteID: 5394026926da07a4b865a17f2c9eacc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1103, y: 1195}
+  - name: Samurai_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 884
+      width: 125
+      height: 145
+    spriteID: ca300fd3e6607a043b124fefb8a0ce27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 884}
+  - name: Samurai_Frame_25
+    originalName: 
+    pivot: {x: 0.4318182, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 709
+      y: 1195
+      width: 110
+      height: 155
+    spriteID: c54e1573580f6c149a9849c72523eb34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 709, y: 1195}
+  - name: Samurai_Frame_26
+    originalName: 
+    pivot: {x: 0.45652178, y: -0.0882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 791
+      width: 115
+      height: 170
+    spriteID: 9b2fbe40e3ede9d4aae483fbf5732d88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 791}
+  - name: Samurai_Frame_27
+    originalName: 
+    pivot: {x: 0.36956528, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 969
+      width: 115
+      height: 170
+    spriteID: 055b48b2c0b0b5447957ea91c5c864f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 969}
+  - name: Samurai_Frame_28
+    originalName: 
+    pivot: {x: 0.55769235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1739
+      width: 130
+      height: 160
+    spriteID: 5de3caabbe0cdab49841da461ba87f05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1739}
+  - name: Samurai_Frame_29
+    originalName: 
+    pivot: {x: 0.55769235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 455
+      width: 130
+      height: 160
+    spriteID: f8794a8017b7a2f40af8ae3168cb2a6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 455}
+  - name: Samurai_Frame_30
+    originalName: 
+    pivot: {x: 0.55769235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 623
+      width: 130
+      height: 160
+    spriteID: 7d7e944bb47cc6540b9232a43ea2ee8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 623}
+  - name: Samurai_Frame_31
+    originalName: 
+    pivot: {x: 0.547619, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1457
+      y: 1195
+      width: 105
+      height: 145
+    spriteID: d1f8b43fd8a48264d8353865b9e7e232
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1457, y: 1195}
+  - name: Samurai_Frame_32
+    originalName: 
+    pivot: {x: 0.5749999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1420
+      y: 1363
+      width: 100
+      height: 145
+    spriteID: 4c118748823c55943acb16b0bffc6a5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1420, y: 1363}
+  - name: Samurai_Frame_33
+    originalName: 
+    pivot: {x: 0.453125, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 523
+      y: 455
+      width: 160
+      height: 125
+    spriteID: ca08a62f0bff95246a1e5f28a8f7ea51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 523, y: 455}
+  - name: Samurai_Frame_34
+    originalName: 
+    pivot: {x: 0.23611113, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 490
+      width: 180
+      height: 135
+    spriteID: 6ff7cad9477b22e4cbd2d7a1fbe09d66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 490}
+  - name: Samurai_Frame_35
+    originalName: 
+    pivot: {x: 0.23611113, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 633
+      width: 180
+      height: 135
+    spriteID: 5a2faf61c74c3594f96500117b171e3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 633}
+  - name: Samurai_Frame_36
+    originalName: 
+    pivot: {x: 0.3064516, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 455
+      width: 155
+      height: 130
+    spriteID: e35141081939100438f641a0caec81bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 455}
+  - name: Samurai_Frame_37
+    originalName: 
+    pivot: {x: 0.547619, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1570
+      y: 1195
+      width: 105
+      height: 145
+    spriteID: 7b0bf73b36922b8438c4cf3f8dc63ede
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1570, y: 1195}
+  - name: Samurai_Frame_38
+    originalName: 
+    pivot: {x: 0.5434783, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 1508
+      width: 115
+      height: 160
+    spriteID: fb9a3b6e20fecb64798bdb85113113d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 1508}
+  - name: Samurai_Frame_39
+    originalName: 
+    pivot: {x: 0.537037, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1571
+      width: 135
+      height: 160
+    spriteID: e5cbd680d023e6a4982c12df626a0c0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1571}
+  - name: Samurai_Frame_40
+    originalName: 
+    pivot: {x: 0.55, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1868
+      y: 222
+      width: 150
+      height: 160
+    spriteID: 0b49785a3caa0d743b5684744d14c8a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1868, y: 222}
+  - name: Samurai_Frame_41
+    originalName: 
+    pivot: {x: 0.51785713, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 140
+      height: 160
+    spriteID: a80a1b12df9ce5144843ee3d4e5c650c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+  - name: Samurai_Frame_42
+    originalName: 
+    pivot: {x: 0.6136363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1195
+      width: 110
+      height: 160
+    spriteID: 1dc2baf9be3eee0458d1357b1959e634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1195}
+  - name: Samurai_Frame_43
+    originalName: 
+    pivot: {x: 0.5434783, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 1676
+      width: 115
+      height: 160
+    spriteID: b3c932067f5bda648af883af4f198ae6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 1676}
+  - name: Samurai_Frame_44
+    originalName: 
+    pivot: {x: 0.547619, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1683
+      y: 1195
+      width: 105
+      height: 145
+    spriteID: a8f897fa2485069488654b16fea35b59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1683, y: 1195}
+  - name: Samurai_Frame_45
+    originalName: 
+    pivot: {x: 0.2685185, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1091
+      y: 222
+      width: 270
+      height: 125
+    spriteID: 4dac1c70a4dbc354681255b9d435fd4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1091, y: 222}
+  - name: Samurai_Frame_46
+    originalName: 
+    pivot: {x: 0.18421054, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 818
+      y: 4
+      width: 285
+      height: 170
+    spriteID: 4dd7a7cab8d13e9479ab7fc97f539d12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 818, y: 4}
+  - name: Samurai_Frame_47
+    originalName: 
+    pivot: {x: 0.35000002, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 150
+      height: 155
+    spriteID: 0d77e1c37dccdc1448ba85ef6a3d1d2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: Samurai_Frame_48
+    originalName: 
+    pivot: {x: 0.33870968, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1369
+      y: 222
+      width: 155
+      height: 205
+    spriteID: e24e426aca1a8bc41893a277020d140d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1369, y: 222}
+  - name: Samurai_Frame_49
+    originalName: 
+    pivot: {x: 0.34166667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 4
+      width: 300
+      height: 210
+    spriteID: d1357cb31bf940f49a347997a7f68afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 4}
+  - name: Samurai_Frame_50
+    originalName: 
+    pivot: {x: 0.22321428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 4
+      width: 280
+      height: 175
+    spriteID: af258fdd370cac747b2055fa4167e80b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 530, y: 4}
+  - name: Samurai_Frame_51
+    originalName: 
+    pivot: {x: 0.5681819, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 1325
+      width: 110
+      height: 175
+    spriteID: 9eb433f9bd69ea44d96b3a0205e229df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 1325}
+  - name: Samurai_Frame_52
+    originalName: 
+    pivot: {x: 0.547619, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 1844
+      width: 105
+      height: 175
+    spriteID: bed2d887c92668d49815af1818ba5901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 1844}
+  - name: Samurai_Frame_53
+    originalName: 
+    pivot: {x: 0.547619, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 360
+      y: 736
+      width: 105
+      height: 175
+    spriteID: 533c39df1c53d2148999234e906bc399
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 360, y: 736}
+  - name: Samurai_Frame_54
+    originalName: 
+    pivot: {x: 0.55128205, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 342
+      width: 195
+      height: 140
+    spriteID: 1e2b8a596e31f414187187aa082d4acd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 342}
+  - name: Samurai_Frame_55
+    originalName: 
+    pivot: {x: 0.16037737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 222
+      width: 265
+      height: 225
+    spriteID: a6a90253f4afbea4cba012573f2c0f62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 222}
+  - name: Samurai_Frame_56
+    originalName: 
+    pivot: {x: 0.29761904, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1752
+      y: 4
+      width: 210
+      height: 190
+    spriteID: b6837cdd7494dd040b6f4fd120400549
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1752, y: 4}
+  - name: Samurai_Frame_57
+    originalName: 
+    pivot: {x: 0.390625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1532
+      y: 222
+      width: 160
+      height: 190
+    spriteID: af72c0e1cc5943e4298911a6418bff2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1532, y: 222}
+  - name: Samurai_Frame_58
+    originalName: 
+    pivot: {x: 0.390625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1700
+      y: 222
+      width: 160
+      height: 190
+    spriteID: ed561436572f03841b0be5ec75eead16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1700, y: 222}
+  - name: Samurai_Frame_59
+    originalName: 
+    pivot: {x: 0.8684211, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 1363
+      width: 95
+      height: 170
+    spriteID: a60ff58874c11e44caea7e67b79c5b24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 1363}
+  - name: Samurai_Frame_60
+    originalName: 
+    pivot: {x: 0.9210527, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1214
+      y: 1363
+      width: 95
+      height: 155
+    spriteID: b6608df8e66d83641a895425573d1b3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1214, y: 1363}
+  - name: Samurai_Frame_61
+    originalName: 
+    pivot: {x: 0.6428571, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1796
+      y: 1195
+      width: 105
+      height: 145
+    spriteID: 0396406dd4802804291ce5dd25010467
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1796, y: 1195}
+  - name: Samurai_Frame_62
+    originalName: 
+    pivot: {x: 0.6428571, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1909
+      y: 1195
+      width: 105
+      height: 145
+    spriteID: 36be38b27cfd5c042bec316751a008b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1909, y: 1195}
+  - name: Samurai_Frame_63
+    originalName: 
+    pivot: {x: 0.6136363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1221
+      y: 1195
+      width: 110
+      height: 140
+    spriteID: 4720eb7ef9d00ce4481246cfd1dd7d5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1221, y: 1195}
+  - name: Samurai_Frame_64
+    originalName: 
+    pivot: {x: 0.3452381, y: -0.045454543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 210
+      height: 330
+    spriteID: 16f85e3722766874e9086fa82fd147c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Samurai_Frame_65
+    originalName: 
+    pivot: {x: -3.6999998, y: -3.3125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 1907
+      width: 25
+      height: 80
+    spriteID: 4c10af3d3fbd0dd4aa647f7d158cf198
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 1907}
+  - name: Samurai_Frame_68
+    originalName: 
+    pivot: {x: 0.5869565, y: -1.0294118}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 1147
+      width: 115
+      height: 170
+    spriteID: 517d91a7a762ac44e8b9bbaac895b793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 1147}
+  - name: Samurai_Frame_69
+    originalName: 
+    pivot: {x: 0.6034483, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1413
+      width: 145
+      height: 150
+    spriteID: add66dbe420a0a046a2a09ddcbdc4cc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1413}
+  - name: Samurai_Frame_70
+    originalName: 
+    pivot: {x: 0.6136363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1339
+      y: 1195
+      width: 110
+      height: 140
+    spriteID: a64da1bf54140b140834049fdd7ae76a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1339, y: 1195}
+  - name: Samurai_Frame_71
+    originalName: 
+    pivot: {x: 0.6428571, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 1363
+      width: 105
+      height: 145
+    spriteID: ea2e9db7c850fea4a80d3230981ba632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 782, y: 1363}
+  - name: Samurai_Frame_72
+    originalName: 
+    pivot: {x: 0.6428571, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 895
+      y: 1363
+      width: 105
+      height: 145
+    spriteID: c65b2b27c37afba4c8c2e9d1a67e60ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 895, y: 1363}
+  - name: Samurai_Frame_73
+    originalName: 
+    pivot: {x: 0.6052631, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1317
+      y: 1363
+      width: 95
+      height: 155
+    spriteID: 6d1665e7e4cd71746814313ae8a51aff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1317, y: 1363}
+  - name: Samurai_Frame_74
+    originalName: 
+    pivot: {x: 0.49999997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1528
+      y: 1363
+      width: 95
+      height: 140
+    spriteID: 6bec1be5505df5e4b95c32b90fdcd683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1528, y: 1363}
+  - name: Samurai_Frame_75
+    originalName: 
+    pivot: {x: 0.44736847, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1631
+      y: 1363
+      width: 95
+      height: 125
+    spriteID: 93af73221d2d8a04984b3d96f96d6b92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1631, y: 1363}
+  - name: Samurai_Frame_76
+    originalName: 
+    pivot: {x: 0.44736847, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1734
+      y: 1363
+      width: 95
+      height: 125
+    spriteID: 7f34e5d45353ef549a9684090a5721f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1734, y: 1363}
+  - name: Samurai_Frame_77
+    originalName: 
+    pivot: {x: 0.44736847, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1837
+      y: 1363
+      width: 95
+      height: 125
+    spriteID: 6f53e6f93011dcc448dd386b6570a48b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1837, y: 1363}
+  - name: Samurai_Frame_78
+    originalName: 
+    pivot: {x: 0.28333336, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 945
+      y: 1195
+      width: 150
+      height: 105
+    spriteID: 76050cc2b88eec844978bb91ccdffbf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 945, y: 1195}
+  - name: Samurai_Frame_79
+    originalName: 
+    pivot: {x: 0.18333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 945
+      y: 1308
+      width: 150
+      height: 35
+    spriteID: bbdac98de04ce214b9f88383aa4b48c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 945, y: 1308}
+  - name: Samurai_Frame_80
+    originalName: 
+    pivot: {x: 0.18333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1868
+      y: 390
+      width: 150
+      height: 35
+    spriteID: 1927209234399b24e87cce2b9b08cb3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1868, y: 390}
+  - name: Samurai_Frame_81
+    originalName: 
+    pivot: {x: 0.18333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1837
+      y: 1496
+      width: 150
+      height: 35
+    spriteID: 082e403c65890884ab05fc35a24b653e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1837, y: 1496}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -957044944
+    name: Samurai
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Samurai_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 170
+      spriteId: 8d58215a57fc7f44f9e10574308af7fb
+    - name: Samurai_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 100
+        height: 165
+      spriteId: 0dbc5e632974b214f81d8994072de80a
+    - name: Samurai_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 100
+        height: 165
+      spriteId: 5e5c996ce0bc0c2449c8e408698ba20a
+    - name: Samurai_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 160
+      spriteId: 3852da027cbbebb4ea49d1d171fe0457
+    - name: Samurai_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 165
+      spriteId: 54ff3c72d8d1a6b4b8abb4316df4a8aa
+    - name: Samurai_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 170
+      spriteId: 4e0377082aecaa340ad9dbbb1033c0f8
+    - name: Samurai_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 100
+        height: 165
+      spriteId: bfe7436f1ee983a46a45044a5ef64d1e
+    - name: Samurai_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 100
+        height: 165
+      spriteId: a6c70d35f9669f04d82ec74f89b4f749
+    - name: Samurai_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 160
+      spriteId: 430f7f84d0e5cfb45b6b117714886e1a
+    - name: Samurai_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 165
+      spriteId: c227de4db162bdf4083f2a35ca02bc52
+    - name: Samurai_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 130
+        height: 140
+      spriteId: 3a88e92321306484d9881f1dcdd7ef42
+    - name: Samurai_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 35
+        width: 155
+        height: 120
+      spriteId: 90ec8f581e5b80a41a3805fb5f5e03c8
+    - name: Samurai_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 120
+        height: 150
+      spriteId: 106069f7633cf1d4ebc45951a2376fde
+    - name: Samurai_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 200
+        y: 0
+        width: 110
+        height: 145
+      spriteId: 71938707f50654f4e98b399773d710a1
+    - name: Samurai_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 160
+        y: 0
+        width: 150
+        height: 145
+      spriteId: 19a9a048198ffe741ab44b898c293fe3
+    - name: Samurai_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 25
+        width: 155
+        height: 130
+      spriteId: 3e9b67fba973f564ea22d2db8619e80c
+    - name: Samurai_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 155
+        height: 145
+      spriteId: 802fa3702e77c47469788cb5a65db30d
+    - name: Samurai_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 145
+        height: 135
+      spriteId: 13f62fe18f57e7c4599a78364b629e8b
+    - name: Samurai_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 190
+        y: 0
+        width: 110
+        height: 155
+      spriteId: 9369dafe31e6f5c4e8f3d71d693fb6f0
+    - name: Samurai_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 75
+        y: 0
+        width: 280
+        height: 140
+      spriteId: 0a0e8516903833f49ad2a181d47b8abf
+    - name: Samurai_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 0
+        width: 300
+        height: 135
+      spriteId: 8224d874169ea1047b56e87aa7afc6bd
+    - name: Samurai_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 0
+        width: 335
+        height: 140
+      spriteId: 3cf6d63756abb914982fc0f32549da2f
+    - name: Samurai_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 0
+        width: 290
+        height: 140
+      spriteId: 1feee053cbe5a5a45a2b80c9445d606a
+    - name: Samurai_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 0
+        width: 110
+        height: 140
+      spriteId: 5394026926da07a4b865a17f2c9eacc5
+    - name: Samurai_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 125
+        height: 145
+      spriteId: ca300fd3e6607a043b124fefb8a0ce27
+    - name: Samurai_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 190
+        y: 0
+        width: 110
+        height: 155
+      spriteId: c54e1573580f6c149a9849c72523eb34
+    - name: Samurai_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 15
+        width: 115
+        height: 170
+      spriteId: 9b2fbe40e3ede9d4aae483fbf5732d88
+    - name: Samurai_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 20
+        width: 115
+        height: 170
+      spriteId: 055b48b2c0b0b5447957ea91c5c864f4
+    - name: Samurai_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 130
+        height: 160
+      spriteId: 5de3caabbe0cdab49841da461ba87f05
+    - name: Samurai_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 130
+        height: 160
+      spriteId: f8794a8017b7a2f40af8ae3168cb2a6c
+    - name: Samurai_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 130
+        height: 160
+      spriteId: 7d7e944bb47cc6540b9232a43ea2ee8a
+    - name: Samurai_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 105
+        height: 145
+      spriteId: d1f8b43fd8a48264d8353865b9e7e232
+    - name: Samurai_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 100
+        height: 145
+      spriteId: 4c118748823c55943acb16b0bffc6a5e
+    - name: Samurai_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 160
+        height: 125
+      spriteId: ca08a62f0bff95246a1e5f28a8f7ea51
+    - name: Samurai_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 180
+        height: 135
+      spriteId: 6ff7cad9477b22e4cbd2d7a1fbe09d66
+    - name: Samurai_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 180
+        height: 135
+      spriteId: 5a2faf61c74c3594f96500117b171e3d
+    - name: Samurai_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 190
+        y: 0
+        width: 155
+        height: 130
+      spriteId: e35141081939100438f641a0caec81bb
+    - name: Samurai_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 105
+        height: 145
+      spriteId: 7b0bf73b36922b8438c4cf3f8dc63ede
+    - name: Samurai_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 115
+        height: 160
+      spriteId: fb9a3b6e20fecb64798bdb85113113d4
+    - name: Samurai_Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 135
+        height: 160
+      spriteId: e5cbd680d023e6a4982c12df626a0c0d
+    - name: Samurai_Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 155
+        y: 0
+        width: 150
+        height: 160
+      spriteId: 0b49785a3caa0d743b5684744d14c8a6
+    - name: Samurai_Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 140
+        height: 160
+      spriteId: a80a1b12df9ce5144843ee3d4e5c650c
+    - name: Samurai_Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 110
+        height: 160
+      spriteId: 1dc2baf9be3eee0458d1357b1959e634
+    - name: Samurai_Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 115
+        height: 160
+      spriteId: b3c932067f5bda648af883af4f198ae6
+    - name: Samurai_Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 105
+        height: 145
+      spriteId: a8f897fa2485069488654b16fea35b59
+    - name: Samurai_Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 0
+        width: 270
+        height: 125
+      spriteId: 4dac1c70a4dbc354681255b9d435fd4e
+    - name: Samurai_Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 0
+        width: 285
+        height: 170
+      spriteId: 4dd7a7cab8d13e9479ab7fc97f539d12
+    - name: Samurai_Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 0
+        width: 150
+        height: 155
+      spriteId: 0d77e1c37dccdc1448ba85ef6a3d1d2f
+    - name: Samurai_Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 185
+        y: 0
+        width: 155
+        height: 205
+      spriteId: e24e426aca1a8bc41893a277020d140d
+    - name: Samurai_Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 135
+        y: 0
+        width: 300
+        height: 210
+      spriteId: d1357cb31bf940f49a347997a7f68afb
+    - name: Samurai_Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 280
+        height: 175
+      spriteId: af258fdd370cac747b2055fa4167e80b
+    - name: Samurai_Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 110
+        height: 175
+      spriteId: 9eb433f9bd69ea44d96b3a0205e229df
+    - name: Samurai_Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 105
+        height: 175
+      spriteId: bed2d887c92668d49815af1818ba5901
+    - name: Samurai_Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 105
+        height: 175
+      spriteId: 533c39df1c53d2148999234e906bc399
+    - name: Samurai_Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 130
+        y: 0
+        width: 195
+        height: 140
+      spriteId: 1e2b8a596e31f414187187aa082d4acd
+    - name: Samurai_Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 265
+        height: 225
+      spriteId: a6a90253f4afbea4cba012573f2c0f62
+    - name: Samurai_Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 210
+        height: 190
+      spriteId: b6837cdd7494dd040b6f4fd120400549
+    - name: Samurai_Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 160
+        height: 190
+      spriteId: af72c0e1cc5943e4298911a6418bff2f
+    - name: Samurai_Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 175
+        y: 0
+        width: 160
+        height: 190
+      spriteId: ed561436572f03841b0be5ec75eead16
+    - name: Samurai_Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 155
+        y: 0
+        width: 95
+        height: 170
+      spriteId: a60ff58874c11e44caea7e67b79c5b24
+    - name: Samurai_Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 150
+        y: 0
+        width: 95
+        height: 155
+      spriteId: b6608df8e66d83641a895425573d1b3b
+    - name: Samurai_Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 105
+        height: 145
+      spriteId: 0396406dd4802804291ce5dd25010467
+    - name: Samurai_Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 105
+        height: 145
+      spriteId: 36be38b27cfd5c042bec316751a008b8
+    - name: Samurai_Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 110
+        height: 140
+      spriteId: 4720eb7ef9d00ce4481246cfd1dd7d5b
+    - name: Samurai_Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 165
+        y: 15
+        width: 210
+        height: 330
+      spriteId: 16f85e3722766874e9086fa82fd147c1
+    - name: Samurai_Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 330
+        y: 265
+        width: 25
+        height: 80
+      spriteId: 4c10af3d3fbd0dd4aa647f7d158cf198
+    - name: Samurai_Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 175
+        width: 115
+        height: 170
+      spriteId: 517d91a7a762ac44e8b9bbaac895b793
+    - name: Samurai_Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 150
+        y: 0
+        width: 145
+        height: 150
+      spriteId: add66dbe420a0a046a2a09ddcbdc4cc6
+    - name: Samurai_Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 110
+        height: 140
+      spriteId: a64da1bf54140b140834049fdd7ae76a
+    - name: Samurai_Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 105
+        height: 145
+      spriteId: ea2e9db7c850fea4a80d3230981ba632
+    - name: Samurai_Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 170
+        y: 0
+        width: 105
+        height: 145
+      spriteId: c65b2b27c37afba4c8c2e9d1a67e60ae
+    - name: Samurai_Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 180
+        y: 0
+        width: 95
+        height: 155
+      spriteId: 6d1665e7e4cd71746814313ae8a51aff
+    - name: Samurai_Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 190
+        y: 0
+        width: 95
+        height: 140
+      spriteId: 6bec1be5505df5e4b95c32b90fdcd683
+    - name: Samurai_Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 95
+        height: 125
+      spriteId: 93af73221d2d8a04984b3d96f96d6b92
+    - name: Samurai_Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 95
+        height: 125
+      spriteId: 7f34e5d45353ef549a9684090a5721f9
+    - name: Samurai_Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 95
+        height: 125
+      spriteId: 6f53e6f93011dcc448dd386b6570a48b
+    - name: Samurai_Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 195
+        y: 0
+        width: 150
+        height: 105
+      spriteId: 76050cc2b88eec844978bb91ccdffbf3
+    - name: Samurai_Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 210
+        y: 0
+        width: 150
+        height: 35
+      spriteId: bbdac98de04ce214b9f88383aa4b48c4
+    - name: Samurai_Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 210
+        y: 0
+        width: 150
+        height: 35
+      spriteId: 1927209234399b24e87cce2b9b08cb3b
+    - name: Samurai_Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 210
+        y: 0
+        width: 150
+        height: 35
+      spriteId: 082e403c65890884ab05fc35a24b653e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 475, y: 345}

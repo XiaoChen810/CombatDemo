@@ -1,0 +1,13 @@
+修改按键绑定说明：
+
+1. 打开 JSON 文件并根据需要修改每个按键的值。
+2. 保存文件，确保它位于 Unity 项目的 'Assets/StreamingAssets' 文件夹中。
+
+以下是一些 KeyCode 枚举中定义的常用键位：
+
+字母键: "A", "B", "C", ..., "Z"
+数字键: "Alpha0", "Alpha1", ..., "Alpha9"
+特殊键: "Space", "Return", "Escape", "Tab", "LeftShift", "RightShift", "LeftControl", "RightControl", "LeftAlt", "RightAlt"
+功能键: "F1", "F2", ..., "F12"
+鼠标按键: "Mouse0", "Mouse1", "Mouse2"
+小键盘: "Keypad0", "Keypad1", ..., "Keypad9", "KeypadPlus", "KeypadMinus", "KeypadDivide", "KeypadMultiply"

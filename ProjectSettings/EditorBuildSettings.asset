@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 781264b8c8d2e5b4fa0df8fca9952cc4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay - Night.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GamePlay - Day.unity
+    guid: 9e967f9e0b1904749bc095aad6ce790d
+  m_configObjects: {}

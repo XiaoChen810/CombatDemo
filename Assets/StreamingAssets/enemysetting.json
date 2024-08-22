@@ -1,0 +1,11 @@
+{
+  "MaxHealth": 15000,
+  "DefendProbability": 0.7,
+  "StagePercentage": {
+    "FirstStage": 0.9,
+    "SecondStage": 0.7,
+    "ThirdStage": 0.5
+  }
+}
+
+  

@@ -1,0 +1,26 @@
+{
+    "MaxHealth": 300,
+    "MaxPower": 100,
+    "MoveSpeed": 10,
+    "JumpForce": {
+      "Small": 15,
+      "Big": 20
+    },
+    "HitStrength": {
+      "Light": 1.1,
+      "Heavy": 1.5
+    },
+    "SlidingSpeed": 15,
+    "Dodge": {
+      "Duration": 0.5,
+      "CooldownTime": 0.6,
+      "Speed": 16
+    },
+    "HurtCooldownTime": 0.5,
+    "SkillPowerConsumption": {
+      "Skill1": 25,
+      "Skill2": 50,
+      "SpecialSkill": 75
+    }
+  }
+  
