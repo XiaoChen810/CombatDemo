@@ -239,16 +239,25 @@ public class RedHood_BowHit : RedHood_Base
     {
         AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
 
-        // 当动画已经播放超过95%并且没有按住键位时
-        if (info.normalizedTime > 0.95f && !Input.GetKey(listenKey) && !isShoot)
+        // 当松开监听键位时
+        if (!Input.GetKey(listenKey))
         {
-            // 发射
-            bow.LooseBow();
-            anim.SetBool("drawBow", false);
-            isShoot = true;
+            if (info.normalizedTime < 0.5f && !isShoot)
+            {
+                // 切换回攻击动画
+                fsm.ChangeState("LightHit");
+            }
+            // 当动画已经播放超过95%并且没有发射
+            if (info.normalizedTime > 0.5f && !isShoot)
+            {
+                // 发射
+                bow.LooseBow();
+                anim.SetBool("drawBow", false);
+                isShoot = true;
 
-            // 结束
-            fsm.ChangeState("Idle");
+                // 结束
+                fsm.ChangeState("Idle");
+            }
         }
     }
 

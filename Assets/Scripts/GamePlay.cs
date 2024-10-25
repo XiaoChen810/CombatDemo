@@ -19,6 +19,11 @@ public class GamePlay : MonoBehaviour
     public Text t_keySkillSecond;
     public Text t_keySkillSpecialSkill;
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
     public void StartGame_Night()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

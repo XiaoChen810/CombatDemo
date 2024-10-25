@@ -193,14 +193,14 @@ namespace ChenChen_Core
             truceTimer = 5;
 
             // 防御无敌帧内不触发
-            if (IsDefend) return; 
+            if (IsDefend) return;
 
             // 受击力度
             float getForce = hitStrength;
             rb.velocity = new Vector3(body.localScale.x < 0 ? getForce : -getForce, rb.velocity.y, rb.velocity.z);
 
             // 受击动画
-            if (UnityEngine.Random.value < defendProbability && !IsBroken)
+            if (CalculateDefendProbability(hurtSource) && !IsBroken)
             {
                 anim_body.SetTrigger("defend");
                 if (!IsDefend)
@@ -215,7 +215,7 @@ namespace ChenChen_Core
             {
                 anim_body.SetTrigger("hurt");
                 blood.Splatter();
-                if(!IsBroken)
+                if (!IsBroken)
                 {
                     lastHurtTime = Time.time;
                 }
@@ -234,6 +234,26 @@ namespace ChenChen_Core
                 AttackManager.Instance.ChangeCameraFov(rangedAttackFov);
             }
         }
+
+        private bool CalculateDefendProbability(Vector3 hurtSource)
+        {
+            float baseProbility = defendProbability;
+
+            int dir = hurtSource.x - transform.position.x > 0 ? 1 : -1;
+
+            // 来自背面的攻击，防御系数降低百分之30
+            if (dir != Facing)
+            {
+                baseProbility *= 0.3f;
+            }
+            // 如果现在是攻击状态，防御系数降低百分之30
+            if (anim_body.GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
+            {
+                baseProbility *= 0.3f;
+            }
+            return UnityEngine.Random.value < baseProbility;
+        }
+
         IEnumerator PopupDamage()
         {
             while (true)

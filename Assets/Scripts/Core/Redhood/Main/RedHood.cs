@@ -229,6 +229,8 @@ namespace ChenChen_Core
 
         private void Update()
         {
+            InputHorizon = Input.GetAxis("Horizontal");
+
             if (transform.position.y < 3f)
             {
                 Debug.LogWarning("穿模了");
@@ -295,8 +297,6 @@ namespace ChenChen_Core
         #region - Move -
         private void Move()
         {
-            InputHorizon = Input.GetAxis("Horizontal");
-
             if (PreJump) return;
 
             if (InputHorizon != 0f)
@@ -326,14 +326,14 @@ namespace ChenChen_Core
             if (Input.GetKey(ligthHitOrBowHitKey) && bowState == 1)
             {
                 // 如果达到拉弓要求的时间，进入拉弓状态
-                if(Time.time - downLigthHitOrBowHitKeyTime >= minBowHitTime)
+                if (Time.time - downLigthHitOrBowHitKeyTime >= minBowHitTime)
                 {
                     fsm.ChangeState("BowHit");
                     return;
                 }
             }
 
-            if (Input.GetKeyUp(ligthHitOrBowHitKey) && CurrentStateType != RHStateType.BowHit)
+            if (Input.GetKeyUp(ligthHitOrBowHitKey) && CurrentStateType != RHStateType.BowHit && bowState == 1)
             {
                 // 未进入拉弓状态, 则为轻攻击
                 fsm.ChangeState("LightHit");
